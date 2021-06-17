@@ -1,0 +1,104 @@
+body {
+    font-size: 15pt;
+    margin: 0 auto ;
+    max-width: 900px ;
+    width: 90%;
+}
+.head{
+  background-color: lightblue;
+  height: 50px;
+  border-radius: 5px ;
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.i1{
+  float: right;
+  margin: 15px ;
+  width: 150px;
+  height: 150px ;
+  border-radius: 10px;
+  background-color:rgb(32,226,32);
+  padding: 1em;
+  clip-path: circle( 41% at 50% 50%);
+}
+.p1{
+  border-radius: 5px ;
+  background-color:rgb(32,226,32);
+  height: 200px ;
+  text-align-last: center;
+  text-align: center;
+  text-size-adjust: 2000px ;
+}
+.i2{
+  float: left;
+  margin: 15px ;
+  width: 150px;
+  height: 150px ;
+  border-radius: 10px;
+  background-color:#49BEB0;
+  padding: 1em;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%,100% 80%,80% 100%,20% 100%,0% 80%,0% 20%);
+}
+.p2{
+  border-radius: 8px ;
+  background-color:#49BEB0 ;
+  height: 250px ;
+  text-align-last: center;
+  text-align: center;
+  text-size-adjust: 2000px ;
+}
+.i3{
+  float: right;
+  margin: 15px ;
+  width: 150px;
+  height: 150px ;
+  border-radius: 150px;
+  background-color:#A24A1B;
+  padding: 1em;
+  /*clip-path: circle( 41% at 50%*/
+}
+.p3{
+  border-radius: 5px ;
+  background-color:#A24A1B ;
+  height: 200px ;
+  text-align-last: center;
+  text-align: center;
+  text-size-adjust: 2000px ;
+}
+.i4{
+  float: left;
+  margin:15px ;
+  width: 150px;
+  height: 200px ;
+  border-radius: 10px ;
+  background-color: #8D2585;
+  padding: 1em;
+}
+.p4{
+  border-radius: 8px;
+   background-color: #8D2585;
+   height:250px ;
+   text-align: center;
+}
+.name{
+  font-weight: bold;
+  font-style:'Pacifico';
+  background-color:aquamarine ;
+  border-radius: 5px ;
+  height: 40px;
+  text-align: center;
+}
+.foot{
+  text-align: center;
+  background-color: #EFD46C;
+  overflow: hidden ;
+}
+.foot a{
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: center ;
+  color: white;
+  font-style: oblique;
+}
